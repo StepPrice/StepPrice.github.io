@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Types of AI</title>
+    <link href="PHONE.css" rel="stylesheet" />
+    <link href="PC.css" rel="stylesheet" />
+
+</head>
+<body>
+    <script>
+        function openNav() {
+
+            document.getElementById("Aside").style.width = "90%";
+
+
+        }
+
+        function getWidth() {
+
+            var width = document.body.clientWidth;
+            return width;
+
+        }
+        function closeNav() {
+            if (getWidth() < "768") {
+                document.getElementById("Aside").style.width = "0%";
+            }
+        }
+        function openNavtwo() {
+            document.getElementById("LinkBox").style.width = "90%";
+        }
+
+        function closeNavtwo() {
+            document.getElementById("LinkBox").style.width = "0";
+        }
+
+
+/**/</script>
+    <div id="Aside">
+        <div class="sLink"><a href="#one" onclick="closeNav()"><h3>What Branches of AI exist</h3></a></div>
+       
+
+        <a class="close" href="javascript:void(0);" onclick="closeNav()">&times;</a>
+
+    </div>
+
+    <div id="Main">
+        <header>
+            <a href="javascript:void(0);" onclick="openNav()">
+
+                <img class="TopMeny" src="menu2.png" alt="AI" />
+
+            </a>
+            <a href="index.html">
+                <img id="Logo" src="stock.png" alt="AI" />
+            </a>
+            <a href="javascript:void(0);" onclick="openNavtwo()">
+
+                <img class="TopMeny" src="menu.png" alt="AI" />
+            </a>
+            <div class="title"><a href="#"><h1>Types of AI</h1></a></div>
+            <div class="title"><a href="https://www.vklass.se/user.aspx?id=509427"><h2>By Jonathan Dahlborg</h2></a></div>
+
+            <div id="LinkBox">
+                <a class="close" href="javascript:void(0);" onclick="closeNavtwo()">&times;</a>
+                <div class="BoxLink"><a href="what_is_ai.html"><h3>What is AI?</h3></a></div>
+                <div class="BoxLink"><a href="where_is_it_found.html"><h3>Where is it found?</h3></a></div>
+                <div class="BoxLink"><a href="OpenAI.html"><h3>OpenAI</h3></a></div>
+                <div class="BoxLink"><a href="Deepmind.html"><h3>Deepmind and AlphaGo</h3></a></div>
+                <div class="BoxLink"><a href="types_of_AI.html"><h3>What types of AI?</h3></a></div>
+                <div class="BoxLink"><a href="history_of_AI.html"><h3>The start of AI</h3></a></div>
+                <div class="BoxLink"><a href="sources.html"><h3>Sources</h3></a></div>
+                <div class="BoxLink"><a href="development_of_AI.html"><h3>The developments of AI</h3></a></div>
+                <div class="BoxLink"><a href="opinions_on_the_future_of_AI.html"><h3>Opinions on the future of AI</h3></a></div>
+            </div>
+        </header>
+        <section id="SectionWide">
+
+            <article id="one">
+                <h2>What Branches of AI exist</h2>
+                <p>by John McCarthy</p>
+                <img src="nerve.jpg" alt="Alternate Text" />
+                <h3>logical AI</h3>
+                <p>
+                    What a program knows about the world in general the facts
+                    of the specific situation in which it must act, and its goals are all
+                    represented by sentences of some mathematical logical language. The
+                    program decides what to do by inferring that certain actions are appropriate for achieving its goals.
+                </p>
+                <h3>search</h3>
+                <p>
+                    AI programs often examine large numbers of possibilities, e.g. moves
+                    in a chess game or inferences by a theorem proving program. Discoveries are continually made about how to do this more efficiently in various
+                    domains.
+                </p>
+                <h3>pattern recognition</h3>
+                <p>
+                    When a program makes observations of some kind,
+                    it is often programmed to compare what it sees with a pattern. For
+                    example, a vision program may try to match a pattern of eyes and a
+                    nose in a scene in order to find a face. More complex patterns, e.g. in
+                    a natural language text, in a chess position, or in the history of some
+                    event are also studied. These more complex patterns require quite
+                    different methods than do the simple patterns that have been studied
+                    the most.
+                </p>
+                <h3>representation</h3><img src=" artificial-intelligence-2228610_1280.jpg" alt="Alternate Text" />
+                <p>
+                    Facts about the world have to be represented in some way.
+                    Usually languages of mathematical logic are used.
+                </p>
+                <h3>inference</h3>
+                <p>
+                    From some facts, others can be inferred. Mathematical logical
+                    deduction is adequate for some purposes, but new methods of nonmonotonic inference have been added to logic since the 1970s. The
+                    simplest kind of non-monotonic reasoning is default reasoning in which
+                    a conclusion is to be inferred by default, but the conclusion can be
+                    withdrawn if there is evidence to the contrary. For example, when
+                    we hear of a bird, we man infer that it can fly, but this conclusion
+                    can be reversed when we hear that it is a penguin. It is the possibility that a conclusion may have to be withdrawn that constitutes the
+                    non-monotonic character of the reasoning. Ordinary logical reasoning
+                    is monotonic in that the set of conclusions that can the drawn from
+                    a set of premises is a monotonic increasing function of the premises.
+                    Circumscription is another form of non-monotonic reasoning
+                </p>
+                <h3>common sense knowledge and reasoning</h3><img src="network.jpg" alt="Alternate Text" />
+                <p>
+                    This is the area in which AI
+                    is farthest from human-level, in spite of the fact that it has been an
+                    active research area since the 1950s. While there has been considerable
+                    progress, e.g. in developing systems of non-monotonic reasoning and
+                    theories of action, yet more new ideas are needed. The Cyc system
+                    contains a large but spotty collection of common sense facts.
+                </p>
+                <h3>learning from experience </h3>
+                <p>
+                    Programs do that. The approaches to AI based
+                    on connectionism and neural nets specialize in that. There is also learning of laws expressed in logic
+                    <br /><br />
+                    Programs can only learn what facts
+                    or behaviors their formalisms can represent, and unfortunately learning systems are almost all based on very limited abilities to represent
+                    information.
+
+                </p>
+                <h3>heuristics</h3>
+                <p>
+                    A heuristic is a way of trying to discover something or an idea
+                    imbedded in a program. The term is used variously in AI. Heuristic
+                    functions are used in some approaches to search to measure how far
+                    a node in a search tree seems to be from a goal. Heuristic predicates
+                    that compare two nodes in a search tree to see if one is better than the
+                    other, i.e. constitutes an advance toward the goal, may be more useful.
+                </p>
+            </article>
+
+            
+
+
+
+
+
+        </section>
+    </div>
+    <div id="bottom"><a href="#"><h3>Go to top</h3></a></div>
+    <div id="Footer">
+        <div class="BoxLink"><a href="what_is_ai.html"><h3>What is AI?</h3></a></div>
+        <div class="BoxLink"><a href="where_is_it_found.html"><h3>Where is it found?</h3></a></div>
+        <div class="BoxLink"><a href="OpenAI.html"><h3>OpenAI</h3></a></div>
+        <div class="BoxLink"><a href="Deepmind.html"><h3>Deepmind and AlphaGo</h3></a></div>
+        <div class="BoxLink"><a href="types_of_AI.html"><h3>What types of AI?</h3></a></div>
+        <div class="BoxLink"><a href="history_of_AI.html"><h3>The start of AI</h3></a></div>
+        <div class="BoxLink"><a href="sources.html"><h3>Sources</h3></a></div>
+        <div class="BoxLink"><a href="development_of_AI.html"><h3>The developments of AI</h3></a></div>
+        <div class="BoxLink"><a href="opinions_on_the_future_of_AI.html"><h3>Opinions on the future of AI</h3></a></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@media screen and (max-width: 768px) {
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+
+
+    body {
+        background-color: #123456;
+    }
+
+    #Main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        background: rgba(200, 54, 54, 0.1);
+    }
+
+    #Top {
+        margin-top: 20px;
+        width: Calc(100% - 20px);
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        background-color: transparent;
+        display: block;
+        margin-right: 20px;
+        /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
+    }
+
+    #Section {
+        width: 100%;
+        float: left;
+        height: auto;
+        display: block;
+        background-color: orange;
+        background: rgba(200, 54, 54, 0.1);
+        overflow: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: monaco, monospace;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: monaco, monospace;
+        font-weight: bold;
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: arial, verdana, 'trebuchet ms', sans-serif;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: arial, verdana, 'trebuchet ms';
+        background-color: white;
+        margin: 5px;
+        padding: 5px;
+        padding-bottom: 10px;
+        display: inline-block;
+        min-width: 90%;
+        border-radius: 5px;
+    }
+
+    article {
+        color: black;
+        border-radius: 20px;
+        background-color: #2C7873;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 55%;
+        float: none;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        display: block;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        border-radius: 5px;
+    }
+
+        img#MainImage {
+            margin-top: 0px;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 70%;
+        }
+
+        img#Logo {
+            float: left;
+            margin-top: 0px;
+            display: inline-block;
+            max-width: calc(90% /3);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    p > a {
+        color: black;
+        text-decoration: underline;
+    }
+
+        a:hover {
+            color: yellowgreen;
+        }
+
+        a:active {
+            color: deepskyblue;
+        }
+
+    .Link {
+        color: #FFFFFF;
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        background-color: #004445;
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        padding: 10px;
+        text-decoration: none;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        border-radius: 25px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+        height: auto;
+    }
+
+    #SideLogo {
+        float: left;
+    }
+
+    .title {
+        min-width: 66%;
+        background-color: #004445;
+        padding: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .TopMeny {
+        float: left;
+        width: calc(75% /3);
+        padding: 5%;
+        display: inline-block;
+        box-shadow: none;
+    }
+
+    header {
+        width: 100%;
+        display: block;
+    }
+
+    #Aside {
+        position: fixed;
+        overflow: hidden;
+        width: 0%;
+        height: auto;
+        background-color: #021C1E;
+        transition: 0.5s;
+        padding-bottom: 20px;
+    }
+
+    #Footer #boxLink {
+        display: none;
+    }
+
+    #Footer {
+        display: none;
+    }
+
+    .sLink {
+        color: #FFFFFF;
+        float: none;
+        width: 90%;
+        height: auto;
+        background-color: #2C7873;
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+        padding: 3%;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        border-radius: 10px;
+        text-align: left;
+        vertical-align: middle;
+        line-height: 40px;
+    }
+
+    .close {
+        display: inline;
+        width: 8%;
+        margin: 3%;
+        margin-top: 4%;
+        font-size: 65px;
+        border-radius: 15px;
+    }
+
+    #LinkBox {
+        margin: 0;
+        float: none;
+        display: inline-block;
+        position: fixed;
+        overflow: hidden;
+        width: 0%;
+        height: auto;
+        background-color: #021C1E;
+        transition: 0.5s;
+        padding-bottom: 50px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .BoxLink {
+        overflow: hidden;
+        position: initial;
+        float: none;
+        color: #FFFFFF;
+        float: none;
+        text-align: center;
+        width: 80%;
+        float: right;
+        height: 45px;
+        background-color: #004445;
+        display: inline-grid;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        padding-top: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
+        text-decoration: none;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        border-radius: 20px;
+    }
+
+    #bottom {
+        display: block;
+        padding-top: 20px;
+        background-color: #2C7873;
+        text-align: center;
+        width: 100%;
+        height: 60px;
+        margin-top: 15px;
+    }
+}
